@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

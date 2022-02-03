@@ -1,12 +1,12 @@
 import React from 'react'
-import { useState } from 'react'
+// import { useState } from 'react'
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(' ')
+// }
 
 export default function Contact() {
-  const [agreed, setAgreed] = useState(false)
+//   const [agreed, setAgreed] = useState(false)
 
   return (
     <div id="contact" className="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">

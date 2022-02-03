@@ -36,6 +36,7 @@ export default function Reviews() {
                     <a
                       href="https://mobileelections.com/"
                       target="_blank"
+                      rel="noreferrer"
                       className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-secondary hover:outline-none hover:ring-2 hover:ring-offset-2 hover:ring-secondary hover:ring-offset-white"
                     >
                       Go to site
@@ -97,6 +98,7 @@ export default function Reviews() {
                   <a
                     href="https://brenkfacilitymaintenance.com/"
                     target="_blank"
+                    rel="noreferrer"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-secondary hover:outline-none hover:ring-2 hover:ring-offset-2 hover:ring-secondary hover:ring-offset-white"
                   >
                     Go to site
@@ -156,6 +158,7 @@ export default function Reviews() {
                   <a
                     href="https://brodysbusybees.com/"
                     target="_blank"
+                    rel="noreferrer"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-secondary hover:outline-none hover:ring-2 hover:ring-offset-2 hover:ring-secondary hover:ring-offset-white"
                   >
                     Go to site

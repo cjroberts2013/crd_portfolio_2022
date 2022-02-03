@@ -33,13 +33,6 @@ export default function Hero() {
                   </Popover.Button>
                 </div>
               </div>
-              {/* <div className="hidden space-x-8 md:flex md:ml-10">
-                {navigation.map((item) => (
-                  <a key={item.name} href={item.href} className="text-base font-medium text-gray-800 hover:text-gray-300">
-                    {item.name}
-                  </a>
-                ))}
-              </div> */}
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
               <a href="#about" className="text-base font-medium text-gray-800 hover:text-gray-300">
@@ -155,13 +148,17 @@ export default function Hero() {
                   </div> */}
                 </div>
               </div>
-              <div className="mt-12 mb-16 sm:mb-48 lg:m-0 lg:relative">
-                <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
+              <div className="mt-12 mb-16 sm:mb-48 lg:m-12 lg:relative">
+                <div className="mx-auto my-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   <img
                     className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     src={heroimg}
                     alt="Illustration of designing a webpage."
                   />
+                  {/* <div className='w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none'> */}
+                    {/* {heroimg()} */}
+
+                  {/* </div> */}
                 </div>
               </div>
             </div>
