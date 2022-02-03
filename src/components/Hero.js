@@ -12,7 +12,7 @@ const navigation = [
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden">
+    <div id="home" className="relative overflow-hidden">
       <Popover as="header" className="relative">
         <div className="bg-white pt-6">
           <nav
@@ -61,9 +61,11 @@ export default function Hero() {
             <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div className="text-base font-bold text-gray-800">
-                  <a href="#home" className="text-base font-bold text-gray-800">
-                    Charles Roberts Design
-                  </a>
+                  <Popover.Button>
+                    <a href="#home" className="text-base font-bold text-gray-800">
+                      Charles Roberts Design
+                    </a>
+                  </Popover.Button>
                 </div>
                 <div className="-mr-2 ">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray">
@@ -75,13 +77,13 @@ export default function Hero() {
               <div className="pt-5 pb-6">
                 <div className="px-2 space-y-1">
                   {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-secondary hover:text-white"
-                    >
-                      {item.name}
-                    </a>
+                    <Popover.Button key={item.name} className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-secondary hover:text-white">
+                      <a
+                        href={item.href}
+                      >
+                        {item.name}
+                      </a>
+                    </Popover.Button>
                   ))}
                 </div>
               </div>
@@ -91,7 +93,7 @@ export default function Hero() {
       </Popover>
 
       <main>
-        <div id="home" className="pt-10 bg-white sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+        <div className="pt-10 bg-white sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
           <div className="mx-auto max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-8">
               <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
