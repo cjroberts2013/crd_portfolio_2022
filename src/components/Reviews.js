@@ -2,8 +2,8 @@ import React from 'react';
 import BBB from './../images/bbb-review.png'
 import AV from './../images/av-review.png'
 import BFM from './../images/bfm-review.png'
-import brenkfam from './../images/family.jpg'
-import brodyfam from './../images/about.jpg'
+import brenkfam from './../images/daryl.png'
+import brodyfam from './../images/brody.png'
 import avfam from './../images/av-fav.ico'
 
 import { ChipIcon, OfficeBuildingIcon, InboxInIcon } from '@heroicons/react/outline'
