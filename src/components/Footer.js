@@ -19,10 +19,10 @@ export default function Footer() {
                         </div>
                         <div className="-mx-4">
                             <div className="flex mx-4">
-                                <a rel="noreferrer" aria-label="Twitter" href="https://twitter.com/cjrobertstech" className="pr-4 py-2 tert-inverted text-2xl text-gray-600 hover:text-green-500" target="_blank" title="Twitter"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
-                                <a rel="noreferrer" aria-label="Linkedin" href="https://linkedin.com/in/cjrobertstech" className="pr-4 py-2 tert-inverted text-2xl text-gray-600 hover:text-green-500" target="_blank" title="LinkedIn"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-                                <a rel="noreferrer" aria-label="Github" href="https://github.com/cjroberts2013" className="pr-4 py-2 tert-inverted text-2xl text-gray-600 hover:text-green-500" target="_blank" title="Github"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-                                <a rel="noreferrer" aria-label="Instagram" href="https://instagram.com/cj_roberts" className="pr-4 py-2 tert-inverted text-2xl text-gray-600 hover:text-green-500" target="_blank" title="Instagram"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
+                                <a rel="noreferrer" aria-label="Twitter" href="https://twitter.com/cjrobertstech" className="pr-4 py-2 tert-inverted text-2xl text-gray-600 hover:text-gray-400" target="_blank" title="Twitter"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+                                <a rel="noreferrer" aria-label="Linkedin" href="https://linkedin.com/in/cjrobertstech" className="pr-4 py-2 tert-inverted text-2xl text-gray-600 hover:text-gray-400" target="_blank" title="LinkedIn"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                                <a rel="noreferrer" aria-label="Github" href="https://github.com/cjroberts2013" className="pr-4 py-2 tert-inverted text-2xl text-gray-600 hover:text-gray-400" target="_blank" title="Github"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                                <a rel="noreferrer" aria-label="Instagram" href="https://instagram.com/cj_roberts" className="pr-4 py-2 tert-inverted text-2xl text-gray-600 hover:text-gray-400" target="_blank" title="Instagram"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
                             </div>
                         </div>
                     </div>

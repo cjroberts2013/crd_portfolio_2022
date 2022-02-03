@@ -3,6 +3,7 @@ import Hero from "./../components/Hero"
 import Features from "./../components/Features"
 import Cta from "./../components/Cta"
 import Reviews from "./../components/Reviews"
+import About from "./../components/About"
 import Contact from "./../components/Contact"
 import Footer from "./../components/Footer"
 
@@ -60,6 +61,7 @@ const IndexPage = () => {
       <Features />
       <Cta />
       <Reviews />
+      <About />
       <Contact />
       <Footer />
     </React.Fragment>
