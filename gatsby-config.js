@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-      title: `CRD_Portfolio_2022`,
-    siteUrl: `https://www.yourdomain.tld`
+      title: `Charles Roberts Design`,
+    siteUrl: `https://www.charlesrobertsdesign.netlify.app`,
+    description: "I create fast, beautiful, and responsive websites that will get results."
   },
   plugins: [
     "gatsby-plugin-image",
@@ -12,7 +13,7 @@ module.exports = {
     "gatsby-transformer-sharp", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/icon.png"
+      "icon": "static/sm-logo.png"
     }
   }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
