@@ -7,7 +7,7 @@ const people = [
       role: 'Founder',
       imageUrl: {profile},
       bio:
-        'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+        'When I am not developing, I enjoy hitting the trails for a long run or going out to the lake to kayak. I would love the opportunity to talk with you and find out how I can bring value to your business.',
       twitterUrl: 'https://twitter.com/cjrobertstech',
       linkedinUrl: 'https://linkedin.com/in/cjrobertstech',
     },
@@ -22,8 +22,9 @@ const people = [
             <div className="space-y-5 sm:space-y-4">
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">About Us</h2>
               <p className="text-xl text-gray-500">
-                Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum
-                vestibulum suspendisse. Volutpat eu faucibus vivamus eget bibendum cras.
+              I am a full stack developer working at a small software company in the southeast Michigan area. I got into web development by dumb luck and it has been the best thing to ever happen to me. 
+              I now get to work with awesome technologies while also helping small business grow their own brands. 
+              
               </p>
             </div>
             <div className="lg:col-span-2">

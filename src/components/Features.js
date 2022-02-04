@@ -4,7 +4,7 @@ import { DesktopComputerIcon, PresentationChartBarIcon, SearchCircleIcon, CloudU
 const features = [
     {
       name: 'Responsive Web Design',
-      description: 'Every business can benefit from a web presence in this day and age. Let me help bring your vision to life with a fast loading, beautiful site, custom built to your specific needs.',
+      description: 'Whether your business is large or small, we can build a beautiful, relevant website for just about any budget level. We’ll also help customers better find your website and fully experience it on any mobile device.',
       icon: DesktopComputerIcon,
     },
     {

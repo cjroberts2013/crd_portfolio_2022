@@ -58,8 +58,8 @@ export default function Contact() {
         <div className="text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Contact Us</h2>
           <p className="mt-4 text-lg leading-6 text-gray-500">
-            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus
-            arcu.
+            I would love to hear from you and find out how I can be of service. 
+            Please reach out by emailing the address below, direct messaging me on twitter, or by filling out the form.
           </p>
         </div>
         <div className="mt-12">

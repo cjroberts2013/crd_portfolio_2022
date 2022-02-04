@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
       title: `Charles Roberts Design`,
-    siteUrl: `https://www.charlesrobertsdesign.netlify.app`,
+    siteUrl: `https://charlesrobertsdesign.com/`,
     description: "I create fast, beautiful, and responsive websites that will get results."
   },
   plugins: [
