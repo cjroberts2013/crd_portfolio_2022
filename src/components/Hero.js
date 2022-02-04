@@ -3,7 +3,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 // import { ChevronRightIcon } from '@heroicons/react/solid'
-import heroimg from './../images/hero2vector.png'
+import heroimg from './../images/hero2vector.webp'
 
 const navigation = [
   { name: 'About', href: '#about' },
