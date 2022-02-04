@@ -9,6 +9,7 @@ module.exports = {
     "gatsby-plugin-react-helmet", 
     "gatsby-plugin-postcss", 
     "gatsby-plugin-sitemap",
+    'gatsby-plugin-robots-txt',
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp", {
     resolve: 'gatsby-plugin-manifest',
