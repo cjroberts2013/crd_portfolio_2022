@@ -11,7 +11,7 @@ import Footer from "./../components/Footer"
 const IndexPage = () => {
   return (
     <React.Fragment >
-      <Seo title="Home"/>
+      <Seo title="Affordable Web Design"/>
       <Hero />
       <Features />
       <Cta />

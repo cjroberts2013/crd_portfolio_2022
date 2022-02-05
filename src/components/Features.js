@@ -3,7 +3,7 @@ import { DesktopComputerIcon, PresentationChartBarIcon, SearchCircleIcon, CloudU
 
 const features = [
     {
-      name: 'Responsive Web Design',
+      name: 'Affordable Web Design',
       description: 'Whether your business is large or small, we can build a beautiful, relevant website for just about any budget level. We’ll also help customers better find your website and fully experience it on any mobile device.',
       icon: DesktopComputerIcon,
     },

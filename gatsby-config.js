@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-      title: `Charles Roberts Design`,
+    title: `Charles Roberts Design`,
     siteUrl: `https://charlesrobertsdesign.com/`,
-    description: "I create fast, beautiful, and responsive websites that will get results."
+    description: "Affordable, fast, beautiful, and responsive websites that will get results."
   },
   plugins: [
     "gatsby-plugin-image",
