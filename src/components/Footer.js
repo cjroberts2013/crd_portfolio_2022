@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -29,9 +30,10 @@ export default function Footer() {
                         <div className="md:mx-auto my-4">
                             <p className="mb-6 font-semibold">Quick Links</p>
                             <div className="grid gap-2">
-                                <p><a className="text-gray-600 hover:text-green-500" href="#home">Home</a></p>
-                                <p><a className="text-gray-600 hover:text-green-500" href="#about">About</a></p>
-                                <p><a className="text-gray-600 hover:text-green-500" href="#contact">Contact</a></p>
+                                <p><Link className="text-gray-600 hover:text-green-500" to="/#home">Home</Link></p>
+                                <p><Link className="text-gray-600 hover:text-green-500" to="/#pricing">Pricing</Link></p>
+                                <p><Link className="text-gray-600 hover:text-green-500" to="/#about">About</Link></p>
+                                <p><Link className="text-gray-600 hover:text-green-500" to="/contact" state={{ option: "Professional One-Page Website" }}>Contact</Link></p>
                             </div>
                         </div>
                     </div>

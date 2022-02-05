@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'gatsby'
 
 export default function Cta({head, sub, cta, ctalink}) {
     return (
@@ -10,12 +11,13 @@ export default function Cta({head, sub, cta, ctalink}) {
           </h2>
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <a
-                href="#contact"
+              <Link
+                to="/contact"
+                state={{ option: "Professional One-Page Website" }}
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-secondary bg-white hover:outline-none hover:ring-2 hover:ring-offset-2 hover:ring-white hover:ring-offset-secondary"
               >
                 Contact us
-              </a>
+              </Link>
             </div>
           </div>
         </div>

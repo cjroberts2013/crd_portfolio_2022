@@ -22,7 +22,7 @@ const features = [
     {
       name: 'SEO',
       description:
-        'I optimize websites for search engines. My focus is on crafting helpful page title tags and meta descriptions, keyword rich URLs, useful image titles and alt tags, and ensuring fast loading speeds.',
+        'I optimize websites for search engines. My focus is on getting your website to rank on Google. This is done through on-site optimizations as well as creating related articles to boost long-term SEO results.',
       icon: SearchCircleIcon,
     },
   ]

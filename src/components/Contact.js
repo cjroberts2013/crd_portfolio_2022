@@ -1,13 +1,7 @@
 import React from 'react'
-// import { useState } from 'react'
+import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(' ')
-// }
-
-export default function Contact() {
-//   const [agreed, setAgreed] = useState(false)
-
+export default function Contact({option}) {
   return (
     <div id="contact" className="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
       <div className="relative max-w-xl mx-auto">
@@ -57,18 +51,51 @@ export default function Contact() {
         </svg>
         <div className="text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Contact Us</h2>
-          <p className="mt-4 text-lg leading-6 text-gray-500">
-            I would love to hear from you and find out how I can be of service. 
-            Please reach out by filling out the form.
+          <p className="mt-4 text-lg leading-6 text-gray-600">
+            I would love to hear from you and find out how I can be of service. Please fill out the form below or feel free to send me a call or email. I look forward to working with you.
           </p>
+
+
+          <div className="mt-6">
+                <dt className="sr-only">Phone number</dt>
+                <dd className="flex">
+                  <PhoneIcon className="flex-shrink-0 h-6 w-6 text-gray-700" aria-hidden="true" />
+                  <a href="tel:9796180950" className="ml-3 text-gray-700 hover:text-gray-500">+1 (979) 618-0950</a>
+                </dd>
+              </div>
+              <div className="mt-3">
+                <dt className="sr-only">Email</dt>
+                <dd className="flex">
+                  <MailIcon className="flex-shrink-0 h-6 w-6 text-gray-700" aria-hidden="true" />
+                  <a href="mailto:cjroberts2013@gmail.com" className="ml-3 text-gray-700 hover:text-gray-500">cjroberts2013@gmail.com</a>
+                </dd>
+              </div>
         </div>
+
+
+
         <div className="mt-12">
-
-
-
           <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
+            <div className='sm:col-span-2'>
+              <label htmlFor="package" className="block text-sm font-medium text-gray-700">
+                Package you are interested in
+              </label>
+              <div className="mt-1">
+                <select
+                  id="package"
+                  name="package"
+                  className="py-3 px-4 block w-full shadow-sm focus:ring-secondary focus:border-secondary border-gray-300 rounded-md"
+                  defaultValue={option}
+                >
+                  <option>Professional One-Page Website</option>
+                  <option>Website + SEO submissions + Google Map Submission</option>
+                  <option>Social Media Management</option>
+                  <option>Social Media Management + SEO</option>
+                </select>
+              </div>
+            </div>
             <div>
               <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">
                 First name
